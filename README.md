@@ -9,6 +9,7 @@
 
 4. Analisis Metode HTTP
 - Jelaskan perbedaan antara metode GET, POST, dan DELETE.
+
 GET:
 Metode GET biasanya digunakan ketika klien ingin "mengamati" atau "mengambil" data dari server tanpa melakukan perubahan apapun di server. Permintaan GET yang sama dapat dikirim berulang kali tanpa menghasilkan efek yang berbeda di server.
 
@@ -19,6 +20,7 @@ DELETE:
 DELETE digunakan untuk "menghapus" sumber daya di server. Sama seperti GET, setelah sumber daya dihapus, melakukan DELETE yang sama lagi tidak akan mengubah status lebih lanjut.
 
 - Diskusikan skenario kapan harus menggunakan masing-masing metode dalam aplikasi nyata.
+
 GET:
 Dalam skenario Dasbor Analitik Real-Time, GET digunakan untuk mengambil data tanpa mengubah server, seperti dalam sistem pemantauan lalu lintas atau perangkat IoT. Misalnya, mengambil statistik penggunaan CPU atau kinerja perangkat secara real-time.
 Kenapa harus menggunakan GET? Karena sifat GET yang Tak berubah setelah eksekusi ulang dan bisa di-cache sangat efisien untuk pengambilan data berulang.
